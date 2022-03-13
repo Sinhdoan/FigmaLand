@@ -1,0 +1,52 @@
+.statistical{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 62px 0;
+}
+
+.statistical-text{
+    margin-top: 27px;
+    color: var(--gray-color);
+}
+
+.statistical-progress{
+    width: 757px;
+    height: 15px;
+    background-color: #F3F5F8;
+    margin: 80px auto 62px;
+    position: relative;
+    border-radius: 9.5px;
+}
+.statistical-progress .statistical-progress_item{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    background-color: var(--primany-color);
+    border-radius: 9.5px;
+}
+
+.statistical-progress::after{
+    content: "Facebook";
+    position: absolute;
+    bottom: calc(-100% - 10px);
+    left: 0;
+    font-size: 14px;
+    color: var(--gray-color);
+}
+.statistical-progress::before{
+    content: "35,929";
+    position: absolute;
+    bottom: calc(-100% - 10px);
+    right: 0;
+    font-size: 14px;
+    color: var(--gray-color);
+}
+.statistical-btn{
+    padding: 20px 36px;
+    line-height: 0;
+    cursor: pointer;
+}

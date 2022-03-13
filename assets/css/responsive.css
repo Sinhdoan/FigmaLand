@@ -1,0 +1,315 @@
+
+/*--------------Mobile------------------------ */
+@media (max-width: 739px){
+    .header-nav{
+        display: none;
+    }
+    .menu{
+        display: block;
+        margin-left: 16px;
+    }
+    .menu-rps{
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: var(--primany-color);
+        padding: 30px 0;
+        text-align: center;
+        z-index: 999;
+    }
+    .menu-rps.open{
+        display: block;
+    }
+    .menu-nav{
+        margin-top: 40px;
+    }
+    .menu-rps ul{
+        list-style: none;
+        margin: 0;
+    }
+    .menu-close{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 30px;
+        color: var(--white-color);
+    }
+    .menu-rps ul li{
+        line-height: 40px;
+        margin: 10px 0;
+        border: 1px solid #fff;
+    }
+    .menu-rps ul li a{
+        text-decoration: none;
+        color: var(--white-color);
+        font-size: 18px;
+        display: block;
+    }
+    .menu-rps ul li a:hover{
+        background-color: var(--black-color);
+    }
+    .header-row{
+        padding: 0 5px;
+    }
+    .header-login{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .hero{
+        height: 860px;
+    }
+    .hero-heading{
+        width: 100%;
+        margin-top: 60px;
+    }
+    .hero-img-right {
+        left: -40%;
+        top: 24%;
+        z-index: -1;
+    }
+    .hero-img-left {
+        top: 83%;
+        right: -56%;
+        z-index: 0;
+    }
+    .hero-img-left img{
+        height: 415px;
+        width: 340px;
+    }
+    .hero-heading .hero-text{
+        padding: 0 10%;
+    }
+   .hero-text span,
+   .image-with-text__sub,
+   .hide-show{
+       display: none;
+   }
+   .hero-screen {
+        height: 285px;
+        top: 100%;
+    }
+    .hero-btn button{
+        width: 160px;
+    }
+    .rich-text__content{
+        width: 100%;
+    }
+    .rich-text__content .rich-text__heading,
+    .rich-text__content .rich-text__text{
+        padding: 0 10%;
+    }
+    .rich-text__button button{
+        width: 65%;
+        margin-bottom: 10px;
+    }
+    .image-with-text .row{
+        flex-direction: column-reverse;
+    }
+    
+    .image-with-text__mobile,
+    .image-with-text_2 .image-with-text__mobile,
+    .hide-mobile{
+        display: block;
+    }
+    .image-with-text__content{
+        text-align: center;
+    }
+    .image-with-text__content .image-with-text__text{
+        text-align: center;
+        padding:  0 5%;
+    }
+    .image-with-text_2 .image-with-text__text,
+    .statistical-text,
+    .testimonials-text{
+        padding: 0 10%;
+    }
+    .image-with-text_2 .image-with-text__title{
+        padding: 0 20%;
+    }
+
+    .image-with-text__text span{
+        display: none;
+    }
+    .image-with-text_2 .image-with-text__content{
+        padding: 0;
+    }
+    .statistical-progress{
+        width: 65%;
+    }
+    .testimonials-heading{
+        width: 100%;
+    }
+    .testimonials-img-right{
+        z-index: -1;
+        right: -46.6%;
+    }
+    .testimonials-img-left {
+        left: -17%;
+        top: 29%;
+        transform: rotate(48deg);
+    }
+    .plans{
+        text-align: center;
+    }
+    .plans-row{
+        width: 100%;
+        text-align: center;
+    }
+    .plans-des{
+        padding: 0 6%;
+        text-align: center !important;
+    }
+    .plans-info{
+        width: 200px;
+        margin: 50px auto;
+    }
+    .plans-price{
+        padding: 0;
+        margin-top: 10px;
+    }
+    .plans-info .plans-time{
+        padding: 0 25%;
+    }
+    .meeting > .container{
+        max-width: 100%;
+    }
+    .meeting{
+        padding: 50px 0;
+        text-align: center;
+    }
+    .meeting-title{
+        padding: 0 25%;
+        text-align: center;
+    }
+    .meeting-content:first-child{
+        padding: 0 5%;
+        text-align: center !important;
+        margin-top: 50px;
+        font-size: 16px;
+    }
+    .las-text{
+        padding: 0 18% !important;
+        text-align: center !important;
+        margin-top: 50px;
+        font-size: 16px !important;
+    }
+    footer{
+        text-align: center;
+    }
+    .footer-nav-list{
+        flex-direction: column;
+        margin: 50px 0;
+    }
+    .footer-nav-list li{
+        margin: 15px 0;
+    }
+    .footer-link{
+        justify-content: center;
+    }
+    .footer-link a{
+        margin: 0 15px;
+    }
+}
+
+/*--------------Tablet------------------------ */
+@media (min-width: 740px) and (max-width: 1023px){
+    .hero {
+        height: 1040px;
+    }
+    .header-nav .nav-list li{
+        margin: 0px;
+    }
+    .hero-heading{
+        margin-top: 30px;
+    }
+    .hero-img-left{
+        z-index: -1;
+    }
+    .hero-btn {
+        margin-top: 50px;
+    }
+    .hero-screen{
+        height: 550px;
+    }
+    .image-with-text{
+        padding-bottom: 50px;
+    }
+    .image-with-text .row,
+    .section-img_2_row{
+        flex-direction: column-reverse;
+    }
+    .image-with-text__content{
+        margin-top: 35px;
+    }
+    .statistical{
+        padding: 30px 0;
+    }
+    .testimonials{
+        padding: 40px 0;
+    }
+    .testimonials-brand{
+        margin-top: 20px;
+    }
+    .testimonials-text {
+        margin-top: 30px;
+    }
+    .testimonials-img-left{
+        left: -15%;
+    }
+    .testimonials-img-right{
+        z-index: -1;
+        right: -60%;
+    }
+    .plans{
+        padding: 50px 0;
+    }
+    .plans-des{
+        padding-right: 6%;
+    }
+    footer{
+        padding: 20px 0;
+    }
+    .footer-row {
+        flex-direction: column;
+    }
+    .footer-logo{
+        text-align: center;
+    }
+    .footer-nav{
+        margin: 15px 0;
+    }
+    .footer-link a{
+        margin: 0 15px;
+    }
+}
+
+
+
+/*----------PC small screen------------------ */
+@media (min-width: 1024px) and (max-width: 1239px){
+    .hero{
+        height: 1300px;
+    }
+    .hero-img-right img{
+        height: 540px;
+    }
+    .hero-img-left img{
+        height: 370px;
+    }
+    .hero-screen{
+        height: 680px;
+    }
+    .testimonials-img-left{
+        left: -30%;
+    }
+}
+
+/*Big pc*/
+@media (min-width: 1840px){
+    .image-with-text__content .image-with-text__text{
+        padding-right: 30%;
+    }
+}

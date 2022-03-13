@@ -1,0 +1,70 @@
+.plans{
+    width: 100%;
+    height: 100%;
+    background-color: #182333;
+    padding: 100px 0;
+}
+.plans-row{
+    width: 881px;
+    margin: 0 auto;
+}
+.plans-heading,
+.plans-info{
+    width: 100%;
+    height: 100%;
+}
+.plans-title{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 65px;
+    color: var(--white-color);
+    letter-spacing: 0.2px;
+}
+.plans-des{
+    color: var(--white-color);
+    margin-top: 16px;
+    text-align: left !important;
+    padding-right: 19%;
+}
+
+.plans-info .plans-time{
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: var(--white-color);
+    text-transform: uppercase;
+}
+.plans-price_number{
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 78px;
+    color: var(--yellow-color);
+    letter-spacing: 0.2px;
+}
+.plans-price{
+    padding-right: 25%;
+    display: flex;
+}
+.plans-price span{
+    font-weight: 450;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: var(--white-color);
+    padding-left: 10px;
+}
+.plans-info .plans-text{
+    font-weight: 450;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: var(--white-color);
+    padding-right: 5%;
+    margin-top: 20px;
+} 
+.plans-info > button{
+    padding: 16px 38px;
+    cursor: pointer;
+    margin-top: 20px;
+}
